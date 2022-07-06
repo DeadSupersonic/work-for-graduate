@@ -1,0 +1,379 @@
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\MainWindow.g.cs
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\окна\добавить_заказ.g.cs
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\окна\окно_заказ.g.cs
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\App.g.cs
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\karg_Content.g.cs
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\karg_MarkupCompile.cache
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\karg_MarkupCompile.lref
+C:\Users\zorin\source\repos\karg\karg\bin\Debug\karg.exe.config
+C:\Users\zorin\source\repos\karg\karg\bin\Debug\karg.exe
+C:\Users\zorin\source\repos\karg\karg\bin\Debug\karg.pdb
+C:\Users\zorin\source\repos\karg\karg\bin\Debug\EntityFramework.dll
+C:\Users\zorin\source\repos\karg\karg\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zorin\source\repos\karg\karg\bin\Debug\EntityFramework.xml
+C:\Users\zorin\source\repos\karg\karg\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zorin\source\repos\karg\karg\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\App.baml
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\MainWindow.baml
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\окна\добавить_заказ.baml
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\окна\окно_заказ.baml
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\karg.g.resources
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\karg.Properties.Resources.resources
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\karg.csproj.GenerateResource.cache
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\karg.csproj.CoreCompileInputs.cache
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\karg.csproj.CopyComplete
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\karg.exe
+C:\Users\zorin\source\repos\karg\karg\obj\Debug\karg.pdb
+D:\уч. практика\karg\karg\obj\Debug\karg.csprojAssemblyReference.cache
+D:\уч. практика\karg\karg\obj\Debug\MainWindow.g.cs
+D:\уч. практика\karg\karg\obj\Debug\pages\add_consist.g.cs
+D:\уч. практика\karg\karg\obj\Debug\pages\add_klient.g.cs
+D:\уч. практика\karg\karg\obj\Debug\pages\add_order.g.cs
+D:\уч. практика\karg\karg\obj\Debug\pages\add_thing.g.cs
+D:\уч. практика\karg\karg\obj\Debug\pages\add_worker.g.cs
+D:\уч. практика\karg\karg\obj\Debug\pages\consist.g.cs
+D:\уч. практика\karg\karg\obj\Debug\pages\klient.g.cs
+D:\уч. практика\karg\karg\obj\Debug\pages\order.g.cs
+D:\уч. практика\karg\karg\obj\Debug\pages\thing.g.cs
+D:\уч. практика\karg\karg\obj\Debug\pages\worker.g.cs
+D:\уч. практика\karg\karg\obj\Debug\главная.g.cs
+D:\уч. практика\karg\karg\obj\Debug\App.g.cs
+D:\уч. практика\karg\karg\obj\Debug\karg_MarkupCompile.cache
+D:\уч. практика\karg\karg\obj\Debug\karg_MarkupCompile.lref
+D:\уч. практика\karg\karg\obj\Debug\karg.exe
+D:\уч. практика\karg\karg\obj\Debug\karg.pdb
+D:\уч. практика\karg\karg\obj\Debug\karg_Content.g.cs
+D:\уч. практика\karg\karg\bin\Debug\karg.exe.config
+D:\уч. практика\karg\karg\bin\Debug\karg.exe
+D:\уч. практика\karg\karg\bin\Debug\karg.pdb
+D:\уч. практика\karg\karg\bin\Debug\EntityFramework.dll
+D:\уч. практика\karg\karg\bin\Debug\EntityFramework.SqlServer.dll
+D:\уч. практика\karg\karg\bin\Debug\EntityFramework.xml
+D:\уч. практика\karg\karg\bin\Debug\EntityFramework.SqlServer.xml
+D:\уч. практика\karg\karg\bin\Debug\ru\EntityFramework.resources.dll
+D:\уч. практика\karg\karg\obj\Debug\App.baml
+D:\уч. практика\karg\karg\obj\Debug\MainWindow.baml
+D:\уч. практика\karg\karg\obj\Debug\pages\add_consist.baml
+D:\уч. практика\karg\karg\obj\Debug\pages\add_klient.baml
+D:\уч. практика\karg\karg\obj\Debug\pages\add_order.baml
+D:\уч. практика\karg\karg\obj\Debug\pages\add_thing.baml
+D:\уч. практика\karg\karg\obj\Debug\pages\add_worker.baml
+D:\уч. практика\karg\karg\obj\Debug\pages\consist.baml
+D:\уч. практика\karg\karg\obj\Debug\pages\klient.baml
+D:\уч. практика\karg\karg\obj\Debug\pages\order.baml
+D:\уч. практика\karg\karg\obj\Debug\pages\thing.baml
+D:\уч. практика\karg\karg\obj\Debug\pages\worker.baml
+D:\уч. практика\karg\karg\obj\Debug\главная.baml
+D:\уч. практика\karg\karg\obj\Debug\karg.g.resources
+D:\уч. практика\karg\karg\obj\Debug\karg.Properties.Resources.resources
+D:\уч. практика\karg\karg\obj\Debug\karg.csproj.GenerateResource.cache
+D:\уч. практика\karg\karg\obj\Debug\karg.csproj.CoreCompileInputs.cache
+D:\уч. практика\karg\karg\obj\Debug\karg.csproj.CopyComplete
+E:\уч. практика\karg\karg\bin\Debug\karg.exe.config
+E:\уч. практика\karg\karg\bin\Debug\karg.exe
+E:\уч. практика\karg\karg\bin\Debug\karg.pdb
+E:\уч. практика\karg\karg\bin\Debug\EntityFramework.dll
+E:\уч. практика\karg\karg\bin\Debug\EntityFramework.SqlServer.dll
+E:\уч. практика\karg\karg\bin\Debug\EntityFramework.xml
+E:\уч. практика\karg\karg\bin\Debug\EntityFramework.SqlServer.xml
+E:\уч. практика\karg\karg\bin\Debug\ru\EntityFramework.resources.dll
+E:\уч. практика\karg\karg\obj\Debug\MainWindow.g.cs
+E:\уч. практика\karg\karg\obj\Debug\pages\add_consist.g.cs
+E:\уч. практика\karg\karg\obj\Debug\pages\add_klient.g.cs
+E:\уч. практика\karg\karg\obj\Debug\pages\add_order.g.cs
+E:\уч. практика\karg\karg\obj\Debug\pages\add_thing.g.cs
+E:\уч. практика\karg\karg\obj\Debug\pages\add_worker.g.cs
+E:\уч. практика\karg\karg\obj\Debug\pages\consist.g.cs
+E:\уч. практика\karg\karg\obj\Debug\pages\klient.g.cs
+E:\уч. практика\karg\karg\obj\Debug\pages\order.g.cs
+E:\уч. практика\karg\karg\obj\Debug\pages\thing.g.cs
+E:\уч. практика\karg\karg\obj\Debug\pages\worker.g.cs
+E:\уч. практика\karg\karg\obj\Debug\главная.g.cs
+E:\уч. практика\karg\karg\obj\Debug\App.g.cs
+E:\уч. практика\karg\karg\obj\Debug\karg_Content.g.cs
+E:\уч. практика\karg\karg\obj\Debug\karg_MarkupCompile.cache
+E:\уч. практика\karg\karg\obj\Debug\karg_MarkupCompile.lref
+E:\уч. практика\karg\karg\obj\Debug\App.baml
+E:\уч. практика\karg\karg\obj\Debug\MainWindow.baml
+E:\уч. практика\karg\karg\obj\Debug\pages\add_consist.baml
+E:\уч. практика\karg\karg\obj\Debug\pages\add_klient.baml
+E:\уч. практика\karg\karg\obj\Debug\pages\add_order.baml
+E:\уч. практика\karg\karg\obj\Debug\pages\add_thing.baml
+E:\уч. практика\karg\karg\obj\Debug\pages\add_worker.baml
+E:\уч. практика\karg\karg\obj\Debug\pages\consist.baml
+E:\уч. практика\karg\karg\obj\Debug\pages\klient.baml
+E:\уч. практика\karg\karg\obj\Debug\pages\order.baml
+E:\уч. практика\karg\karg\obj\Debug\pages\thing.baml
+E:\уч. практика\karg\karg\obj\Debug\pages\worker.baml
+E:\уч. практика\karg\karg\obj\Debug\главная.baml
+E:\уч. практика\karg\karg\obj\Debug\karg.g.resources
+E:\уч. практика\karg\karg\obj\Debug\karg.Properties.Resources.resources
+E:\уч. практика\karg\karg\obj\Debug\karg.csproj.GenerateResource.cache
+E:\уч. практика\karg\karg\obj\Debug\karg.csproj.CoreCompileInputs.cache
+E:\уч. практика\karg\karg\obj\Debug\karg.csproj.CopyComplete
+E:\уч. практика\karg\karg\obj\Debug\karg.exe
+E:\уч. практика\karg\karg\obj\Debug\karg.pdb
+E:\уч. практика\karg\karg\obj\Debug\karg.csprojAssemblyReference.cache
+D:\пр. пр\karg\karg\bin\Debug\karg.exe.config
+D:\пр. пр\karg\karg\bin\Debug\karg.exe
+D:\пр. пр\karg\karg\bin\Debug\karg.pdb
+D:\пр. пр\karg\karg\bin\Debug\EntityFramework.dll
+D:\пр. пр\karg\karg\bin\Debug\EntityFramework.SqlServer.dll
+D:\пр. пр\karg\karg\bin\Debug\EntityFramework.xml
+D:\пр. пр\karg\karg\bin\Debug\EntityFramework.SqlServer.xml
+D:\пр. пр\karg\karg\bin\Debug\ru\EntityFramework.resources.dll
+D:\пр. пр\karg\karg\obj\Debug\MainWindow.g.cs
+D:\пр. пр\karg\karg\obj\Debug\pages\add_consist.g.cs
+D:\пр. пр\karg\karg\obj\Debug\pages\add_klient.g.cs
+D:\пр. пр\karg\karg\obj\Debug\pages\Add_order.g.cs
+D:\пр. пр\karg\karg\obj\Debug\pages\add_thing.g.cs
+D:\пр. пр\karg\karg\obj\Debug\pages\add_worker.g.cs
+D:\пр. пр\karg\karg\obj\Debug\pages\consist.g.cs
+D:\пр. пр\karg\karg\obj\Debug\pages\klient.g.cs
+D:\пр. пр\karg\karg\obj\Debug\pages\Order.g.cs
+D:\пр. пр\karg\karg\obj\Debug\pages\thing.g.cs
+D:\пр. пр\karg\karg\obj\Debug\pages\worker.g.cs
+D:\пр. пр\karg\karg\obj\Debug\главная.g.cs
+D:\пр. пр\karg\karg\obj\Debug\App.g.cs
+D:\пр. пр\karg\karg\obj\Debug\karg_Content.g.cs
+D:\пр. пр\karg\karg\obj\Debug\karg_MarkupCompile.cache
+D:\пр. пр\karg\karg\obj\Debug\karg_MarkupCompile.lref
+D:\пр. пр\karg\karg\obj\Debug\App.baml
+D:\пр. пр\karg\karg\obj\Debug\MainWindow.baml
+D:\пр. пр\karg\karg\obj\Debug\pages\add_consist.baml
+D:\пр. пр\karg\karg\obj\Debug\pages\add_klient.baml
+D:\пр. пр\karg\karg\obj\Debug\pages\Add_order.baml
+D:\пр. пр\karg\karg\obj\Debug\pages\add_thing.baml
+D:\пр. пр\karg\karg\obj\Debug\pages\add_worker.baml
+D:\пр. пр\karg\karg\obj\Debug\pages\consist.baml
+D:\пр. пр\karg\karg\obj\Debug\pages\klient.baml
+D:\пр. пр\karg\karg\obj\Debug\pages\Order.baml
+D:\пр. пр\karg\karg\obj\Debug\pages\thing.baml
+D:\пр. пр\karg\karg\obj\Debug\pages\worker.baml
+D:\пр. пр\karg\karg\obj\Debug\главная.baml
+D:\пр. пр\karg\karg\obj\Debug\karg.g.resources
+D:\пр. пр\karg\karg\obj\Debug\karg.Properties.Resources.resources
+D:\пр. пр\karg\karg\obj\Debug\karg.csproj.GenerateResource.cache
+D:\пр. пр\karg\karg\obj\Debug\karg.csproj.CoreCompileInputs.cache
+D:\пр. пр\karg\karg\obj\Debug\karg.csproj.CopyComplete
+D:\пр. пр\karg\karg\obj\Debug\karg.exe
+D:\пр. пр\karg\karg\obj\Debug\karg.pdb
+E:\пр. пр\karg\karg\bin\Debug\karg.exe.config
+E:\пр. пр\karg\karg\bin\Debug\karg.exe
+E:\пр. пр\karg\karg\bin\Debug\karg.pdb
+E:\пр. пр\karg\karg\bin\Debug\EntityFramework.dll
+E:\пр. пр\karg\karg\bin\Debug\EntityFramework.SqlServer.dll
+E:\пр. пр\karg\karg\bin\Debug\EntityFramework.xml
+E:\пр. пр\karg\karg\bin\Debug\EntityFramework.SqlServer.xml
+E:\пр. пр\karg\karg\bin\Debug\ru\EntityFramework.resources.dll
+E:\пр. пр\karg\karg\obj\Debug\karg.csprojAssemblyReference.cache
+E:\пр. пр\karg\karg\obj\Debug\MainWindow.g.cs
+E:\пр. пр\karg\karg\obj\Debug\pages\add_consist.g.cs
+E:\пр. пр\karg\karg\obj\Debug\pages\add_klient.g.cs
+E:\пр. пр\karg\karg\obj\Debug\pages\Add_order.g.cs
+E:\пр. пр\karg\karg\obj\Debug\pages\add_thing.g.cs
+E:\пр. пр\karg\karg\obj\Debug\pages\add_worker.g.cs
+E:\пр. пр\karg\karg\obj\Debug\pages\consist.g.cs
+E:\пр. пр\karg\karg\obj\Debug\pages\klient.g.cs
+E:\пр. пр\karg\karg\obj\Debug\pages\Order.g.cs
+E:\пр. пр\karg\karg\obj\Debug\pages\thing.g.cs
+E:\пр. пр\karg\karg\obj\Debug\pages\worker.g.cs
+E:\пр. пр\karg\karg\obj\Debug\главная.g.cs
+E:\пр. пр\karg\karg\obj\Debug\App.g.cs
+E:\пр. пр\karg\karg\obj\Debug\karg_Content.g.cs
+E:\пр. пр\karg\karg\obj\Debug\karg_MarkupCompile.cache
+E:\пр. пр\karg\karg\obj\Debug\karg_MarkupCompile.lref
+E:\пр. пр\karg\karg\obj\Debug\App.baml
+E:\пр. пр\karg\karg\obj\Debug\MainWindow.baml
+E:\пр. пр\karg\karg\obj\Debug\pages\add_consist.baml
+E:\пр. пр\karg\karg\obj\Debug\pages\add_klient.baml
+E:\пр. пр\karg\karg\obj\Debug\pages\Add_order.baml
+E:\пр. пр\karg\karg\obj\Debug\pages\add_thing.baml
+E:\пр. пр\karg\karg\obj\Debug\pages\add_worker.baml
+E:\пр. пр\karg\karg\obj\Debug\pages\consist.baml
+E:\пр. пр\karg\karg\obj\Debug\pages\klient.baml
+E:\пр. пр\karg\karg\obj\Debug\pages\Order.baml
+E:\пр. пр\karg\karg\obj\Debug\pages\thing.baml
+E:\пр. пр\karg\karg\obj\Debug\pages\worker.baml
+E:\пр. пр\karg\karg\obj\Debug\главная.baml
+E:\пр. пр\karg\karg\obj\Debug\karg.g.resources
+E:\пр. пр\karg\karg\obj\Debug\karg.Properties.Resources.resources
+E:\пр. пр\karg\karg\obj\Debug\karg.csproj.GenerateResource.cache
+E:\пр. пр\karg\karg\obj\Debug\karg.csproj.CoreCompileInputs.cache
+E:\пр. пр\karg\karg\obj\Debug\karg.csproj.CopyComplete
+E:\пр. пр\karg\karg\obj\Debug\karg.exe
+E:\пр. пр\karg\karg\obj\Debug\karg.pdb
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\karg.csproj.AssemblyReference.cache
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\MainWindow.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_adress.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_cafe.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_dish.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_menu.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_personal.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_product.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_Telephone.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_work.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Adress.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Cafe.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Dish.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Menu.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Personal.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Product.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Telephone.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Work.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\главная.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\App.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\karg_Content.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\karg_MarkupCompile.cache
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\karg_MarkupCompile.lref
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\karg.exe
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\karg.pdb
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\bin\Debug\karg.exe.config
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\bin\Debug\karg.exe
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\bin\Debug\karg.pdb
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\bin\Debug\EntityFramework.dll
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\bin\Debug\EntityFramework.xml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\App.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\MainWindow.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_adress.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_cafe.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_dish.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_menu.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_personal.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_product.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_Telephone.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_work.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Adress.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Cafe.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Dish.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Menu.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Personal.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Product.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Telephone.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Work.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\главная.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\karg.g.resources
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\karg.Properties.Resources.resources
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\karg.csproj.GenerateResource.cache
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\karg.csproj.CoreCompileInputs.cache
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\karg.csproj.CopyComplete
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_postavka.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Postavka.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Add_postavka.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пр. пр\karg\karg\obj\Debug\pages\Postavka.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\karg.csproj.AssemblyReference.cache
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\MainWindow.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_adress.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_cafe.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_personal.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_postavka.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_product.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_Telephone.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_work.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Adress.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Cafe.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Personal.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Postavka.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Product.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Telephone.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Work.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\главная.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\App.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\karg_Content.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\karg_MarkupCompile.cache
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\karg_MarkupCompile.lref
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\karg.exe
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\karg.pdb
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\bin\Debug\karg.exe.config
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\bin\Debug\karg.exe
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\bin\Debug\karg.pdb
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\bin\Debug\EntityFramework.dll
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\bin\Debug\EntityFramework.xml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\App.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\MainWindow.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_adress.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_cafe.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_personal.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_postavka.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_product.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_Telephone.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Add_work.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Adress.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Cafe.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Personal.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Postavka.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Product.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Telephone.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Work.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\главная.baml
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\karg.g.resources
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\karg.Properties.Resources.resources
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\karg.csproj.GenerateResource.cache
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\karg.csproj.CoreCompileInputs.cache
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\karg.csproj.CopyComplete
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Statistic.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\пп2\karg\karg\obj\Debug\pages\Statistic.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\bin\Debug\karg.exe.config
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\bin\Debug\karg.exe
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\bin\Debug\karg.pdb
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\bin\Debug\EntityFramework.dll
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\bin\Debug\EntityFramework.xml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\MainWindow.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_adress.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_cafe.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_personal.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_postavka.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_product.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_Telephone.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_work.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Adress.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Cafe.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Personal.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Postavka.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Product.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Statistic.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Telephone.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Work.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\главная.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\App.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\karg_Content.g.cs
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\karg_MarkupCompile.cache
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\karg_MarkupCompile.lref
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\App.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\MainWindow.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_adress.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_cafe.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_personal.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_postavka.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_product.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_Telephone.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Add_work.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Adress.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Cafe.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Personal.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Postavka.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Product.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Statistic.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Telephone.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\pages\Work.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\главная.baml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\karg.g.resources
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\karg.Properties.Resources.resources
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\karg.csproj.GenerateResource.cache
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\karg.csproj.CoreCompileInputs.cache
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\karg.csproj.CopyComplete
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\karg.exe
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\karg.pdb
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\bin\Debug\Newtonsoft.Json.xml
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\zorin\OneDrive\Рабочий стол\диплом\karg\karg\obj\Debug\karg.csproj.AssemblyReference.cache
