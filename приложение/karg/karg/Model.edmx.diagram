@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6e1b23f8d2d04a7aa817c7621568c36c" Name="Diagram1">
+        <EntityTypeShape EntityType="santoriniModel.address" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="santoriniModel.cafe" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="santoriniModel.personal" Width="1.5" PointX="6" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="santoriniModel.product" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="santoriniModel.supply" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="santoriniModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="santoriniModel.telephone" Width="1.5" PointX="8.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="santoriniModel.work" Width="1.5" PointX="3.75" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="santoriniModel.FK__address__idc__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="santoriniModel.FK__address__idp__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="santoriniModel.FK__personal__idc__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="santoriniModel.FK__product__idc__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="santoriniModel.FK__personal__ids__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="santoriniModel.FK__telephone__idp__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="santoriniModel.FK__product__idsp__276EDEB3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

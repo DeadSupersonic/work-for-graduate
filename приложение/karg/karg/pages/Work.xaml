@@ -1,0 +1,33 @@
+﻿<Page x:Class="karg.pages.Work"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:karg.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Work">
+
+    <Grid Background="{DynamicResource gb}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="ButtonAdd" Click="ButtonAdd_click" Margin="0 0 5 0">Добавить</Button>
+            <Button x:Name="ButtonDel" Click="ButtonDel_click" Margin="0 0 5 0">Удалить</Button>
+            <Button x:Name="ButtonCh" Click="ButtonCh_Click" Margin="0 0 5 0" ToolTip="внесите изменения в таблицу, затем для сохранения внесённых изменений нажмите на кнопку 'Изменить'">Изменить</Button>
+            <TextBox x:Name="search" TextChanged="search_TextChanged" Margin="0 0 5 0" Width="150" Height="30" ToolTip="Поиск"></TextBox>
+            <ComboBox x:Name="choose" SelectionChanged="choose_SelectionChanged" Width="120" Height="30" SelectedValue="{Binding salary}" ToolTip="Выбрать данные по столбцу" DisplayMemberPath="salary" SelectedValuePath="salary"></ComboBox>
+        </StackPanel>
+        <DataGrid CanUserAddRows="False" Grid.Row="1" x:Name="DataGridRegistration" ColumnWidth="*" AutoGenerateColumns="False" SelectionMode="Single" Background="{DynamicResource dgb}" RowBackground="{DynamicResource rb}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="зарплата" Binding="{Binding salary}"></DataGridTextColumn>
+                <DataGridComboBoxColumn Header="название" x:Name="name" SelectedItemBinding="{Binding Path=position}"></DataGridComboBoxColumn>
+                <DataGridComboBoxColumn Header="квалификация" x:Name="qua" SelectedItemBinding="{Binding Path=qualification}"></DataGridComboBoxColumn>
+                <DataGridComboBoxColumn Header="эффективность" x:Name="ef" SelectedItemBinding="{Binding Path=efficiency}"></DataGridComboBoxColumn>
+                <DataGridTextColumn Header="стаж (в годах)" Binding="{Binding experience}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

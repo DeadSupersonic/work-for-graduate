@@ -1,0 +1,26 @@
+﻿<Window x:Class="karg.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:karg"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="700" Icon="/photos/58af8-removebg-preview.png">
+    <Grid>
+        <Image x:Name="photo" Source="/photos/grace-santorini-hotel-44-2048x1536.jpg" Stretch="Fill">
+            <Image.Effect>
+                <BlurEffect/>
+            </Image.Effect>
+        </Image>
+        <Label HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20">Добро пожаловать...</Label>
+        <StackPanel HorizontalAlignment="Center">
+            <Label Margin="0 80 0 0" HorizontalContentAlignment="Center">Логин</Label>
+            <TextBox x:Name="login" Text="{Binding position}" Height="30" Width="200" Margin="0 0 0 0" HorizontalContentAlignment="Center" FontFamily="Segoe Print" FontSize="18" PreviewKeyDown="Login_PreviewKeyDown" ToolTip="Введите свою фамилию"></TextBox>
+            <Label Margin="0 0 0 0" HorizontalContentAlignment="Center">Пароль</Label>
+            <PasswordBox x:Name="password" Height="30" Width="200" HorizontalContentAlignment="Center" FontFamily="Segoe Print" FontSize="18" PreviewKeyDown="Password_PreviewKeyDown"></PasswordBox>
+            <Button x:Name="enter" Click="Enter_Click" Width="200" Margin="0 20 0 0">Войти</Button>
+        </StackPanel>
+        <Image HorizontalAlignment="Left" ToolTip="Santorini" VerticalAlignment="Bottom" Width="200" Source="/photos/logotip2.png"></Image>
+        <Button x:Name="about" FontSize="18" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="200" Height="40" BorderBrush="Transparent" Click="About_Click">О программе</Button>
+    </Grid>
+</Window>
