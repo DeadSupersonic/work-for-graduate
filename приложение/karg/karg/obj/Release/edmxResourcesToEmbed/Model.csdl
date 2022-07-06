@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="santoriniModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="address">
+    <Key>
+      <PropertyRef Name="ida" />
+    </Key>
+    <Property Name="ida" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="country" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="city" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="street" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="house" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="flat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="idp" Type="Int32" />
+    <Property Name="idc" Type="Int32" />
+    <NavigationProperty Name="cafe" Relationship="Self.FK__address__idc__31EC6D26" FromRole="address" ToRole="cafe" />
+    <NavigationProperty Name="personal" Relationship="Self.FK__address__idp__30F848ED" FromRole="address" ToRole="personal" />
+  </EntityType>
+  <EntityType Name="cafe">
+    <Key>
+      <PropertyRef Name="idc" />
+    </Key>
+    <Property Name="idc" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="address" Relationship="Self.FK__address__idc__31EC6D26" FromRole="cafe" ToRole="address" />
+    <NavigationProperty Name="personal" Relationship="Self.FK__personal__idc__2E1BDC42" FromRole="cafe" ToRole="personal" />
+    <NavigationProperty Name="product" Relationship="Self.FK__product__idc__286302EC" FromRole="cafe" ToRole="product" />
+  </EntityType>
+  <EntityType Name="personal">
+    <Key>
+      <PropertyRef Name="idp" />
+    </Key>
+    <Property Name="idp" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="lastname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="birth" Type="DateTime" Precision="0" />
+    <Property Name="seria_pasport" Type="Int32" />
+    <Property Name="number_pasport" Type="Int32" />
+    <Property Name="ids" Type="Int32" />
+    <Property Name="idc" Type="Int32" />
+    <NavigationProperty Name="address" Relationship="Self.FK__address__idp__30F848ED" FromRole="personal" ToRole="address" />
+    <NavigationProperty Name="cafe" Relationship="Self.FK__personal__idc__2E1BDC42" FromRole="personal" ToRole="cafe" />
+    <NavigationProperty Name="work" Relationship="Self.FK__personal__ids__2D27B809" FromRole="personal" ToRole="work" />
+    <NavigationProperty Name="telephone" Relationship="Self.FK__telephone__idp__34C8D9D1" FromRole="personal" ToRole="telephone" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="idpr" />
+    </Key>
+    <Property Name="idpr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="date_get" Type="DateTime" Precision="0" />
+    <Property Name="before_date" Type="DateTime" Precision="0" />
+    <Property Name="price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="quality" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="how_much" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="idsp" Type="Int32" />
+    <Property Name="idc" Type="Int32" />
+    <NavigationProperty Name="cafe" Relationship="Self.FK__product__idc__286302EC" FromRole="product" ToRole="cafe" />
+    <NavigationProperty Name="supply" Relationship="Self.FK__product__idsp__276EDEB3" FromRole="product" ToRole="supply" />
+  </EntityType>
+  <EntityType Name="supply">
+    <Key>
+      <PropertyRef Name="idsp" />
+    </Key>
+    <Property Name="idsp" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="product" Relationship="Self.FK__product__idsp__276EDEB3" FromRole="supply" ToRole="product" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="telephone">
+    <Key>
+      <PropertyRef Name="idt" />
+    </Key>
+    <Property Name="idt" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="idp" Type="Int32" />
+    <NavigationProperty Name="personal" Relationship="Self.FK__telephone__idp__34C8D9D1" FromRole="telephone" ToRole="personal" />
+  </EntityType>
+  <EntityType Name="work">
+    <Key>
+      <PropertyRef Name="ids" />
+    </Key>
+    <Property Name="ids" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="salary" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="position" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="qualification" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="efficiency" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="experience" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="personal" Relationship="Self.FK__personal__ids__2D27B809" FromRole="work" ToRole="personal" />
+  </EntityType>
+  <Association Name="FK__address__idc__31EC6D26">
+    <End Role="cafe" Type="Self.cafe" Multiplicity="0..1" />
+    <End Role="address" Type="Self.address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cafe">
+        <PropertyRef Name="idc" />
+      </Principal>
+      <Dependent Role="address">
+        <PropertyRef Name="idc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__address__idp__30F848ED">
+    <End Role="personal" Type="Self.personal" Multiplicity="0..1" />
+    <End Role="address" Type="Self.address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="personal">
+        <PropertyRef Name="idp" />
+      </Principal>
+      <Dependent Role="address">
+        <PropertyRef Name="idp" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__personal__idc__2E1BDC42">
+    <End Role="cafe" Type="Self.cafe" Multiplicity="0..1" />
+    <End Role="personal" Type="Self.personal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cafe">
+        <PropertyRef Name="idc" />
+      </Principal>
+      <Dependent Role="personal">
+        <PropertyRef Name="idc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__product__idc__286302EC">
+    <End Role="cafe" Type="Self.cafe" Multiplicity="0..1" />
+    <End Role="product" Type="Self.product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cafe">
+        <PropertyRef Name="idc" />
+      </Principal>
+      <Dependent Role="product">
+        <PropertyRef Name="idc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__personal__ids__2D27B809">
+    <End Role="work" Type="Self.work" Multiplicity="0..1" />
+    <End Role="personal" Type="Self.personal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="work">
+        <PropertyRef Name="ids" />
+      </Principal>
+      <Dependent Role="personal">
+        <PropertyRef Name="ids" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__telephone__idp__34C8D9D1">
+    <End Role="personal" Type="Self.personal" Multiplicity="0..1" />
+    <End Role="telephone" Type="Self.telephone" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="personal">
+        <PropertyRef Name="idp" />
+      </Principal>
+      <Dependent Role="telephone">
+        <PropertyRef Name="idp" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__product__idsp__276EDEB3">
+    <End Role="supply" Type="Self.supply" Multiplicity="0..1" />
+    <End Role="product" Type="Self.product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="supply">
+        <PropertyRef Name="idsp" />
+      </Principal>
+      <Dependent Role="product">
+        <PropertyRef Name="idsp" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="santoriniEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="address" EntityType="Self.address" />
+    <EntitySet Name="cafe" EntityType="Self.cafe" />
+    <EntitySet Name="personal" EntityType="Self.personal" />
+    <EntitySet Name="product" EntityType="Self.product" />
+    <EntitySet Name="supply" EntityType="Self.supply" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="telephone" EntityType="Self.telephone" />
+    <EntitySet Name="work" EntityType="Self.work" />
+    <AssociationSet Name="FK__address__idc__31EC6D26" Association="Self.FK__address__idc__31EC6D26">
+      <End Role="cafe" EntitySet="cafe" />
+      <End Role="address" EntitySet="address" />
+    </AssociationSet>
+    <AssociationSet Name="FK__address__idp__30F848ED" Association="Self.FK__address__idp__30F848ED">
+      <End Role="personal" EntitySet="personal" />
+      <End Role="address" EntitySet="address" />
+    </AssociationSet>
+    <AssociationSet Name="FK__personal__idc__2E1BDC42" Association="Self.FK__personal__idc__2E1BDC42">
+      <End Role="cafe" EntitySet="cafe" />
+      <End Role="personal" EntitySet="personal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__product__idc__286302EC" Association="Self.FK__product__idc__286302EC">
+      <End Role="cafe" EntitySet="cafe" />
+      <End Role="product" EntitySet="product" />
+    </AssociationSet>
+    <AssociationSet Name="FK__personal__ids__2D27B809" Association="Self.FK__personal__ids__2D27B809">
+      <End Role="work" EntitySet="work" />
+      <End Role="personal" EntitySet="personal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__telephone__idp__34C8D9D1" Association="Self.FK__telephone__idp__34C8D9D1">
+      <End Role="personal" EntitySet="personal" />
+      <End Role="telephone" EntitySet="telephone" />
+    </AssociationSet>
+    <AssociationSet Name="FK__product__idsp__276EDEB3" Association="Self.FK__product__idsp__276EDEB3">
+      <End Role="supply" EntitySet="supply" />
+      <End Role="product" EntitySet="product" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(santoriniModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(santoriniModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище santoriniModelContainer" CdmEntityContainer="santoriniEntities">
+    <EntitySetMapping Name="address">
+      <EntityTypeMapping TypeName="santoriniModel.address">
+        <MappingFragment StoreEntitySet="address">
+          <ScalarProperty Name="ida" ColumnName="ida" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="street" ColumnName="street" />
+          <ScalarProperty Name="house" ColumnName="house" />
+          <ScalarProperty Name="flat" ColumnName="flat" />
+          <ScalarProperty Name="idp" ColumnName="idp" />
+          <ScalarProperty Name="idc" ColumnName="idc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cafe">
+      <EntityTypeMapping TypeName="santoriniModel.cafe">
+        <MappingFragment StoreEntitySet="cafe">
+          <ScalarProperty Name="idc" ColumnName="idc" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="personal">
+      <EntityTypeMapping TypeName="santoriniModel.personal">
+        <MappingFragment StoreEntitySet="personal">
+          <ScalarProperty Name="idp" ColumnName="idp" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="birth" ColumnName="birth" />
+          <ScalarProperty Name="seria_pasport" ColumnName="seria_pasport" />
+          <ScalarProperty Name="number_pasport" ColumnName="number_pasport" />
+          <ScalarProperty Name="ids" ColumnName="ids" />
+          <ScalarProperty Name="idc" ColumnName="idc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="product">
+      <EntityTypeMapping TypeName="santoriniModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="idpr" ColumnName="idpr" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="date_get" ColumnName="date_get" />
+          <ScalarProperty Name="before_date" ColumnName="before_date" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quality" ColumnName="quality" />
+          <ScalarProperty Name="how_much" ColumnName="how_much" />
+          <ScalarProperty Name="idsp" ColumnName="idsp" />
+          <ScalarProperty Name="idc" ColumnName="idc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="supply">
+      <EntityTypeMapping TypeName="santoriniModel.supply">
+        <MappingFragment StoreEntitySet="supply">
+          <ScalarProperty Name="idsp" ColumnName="idsp" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="santoriniModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="telephone">
+      <EntityTypeMapping TypeName="santoriniModel.telephone">
+        <MappingFragment StoreEntitySet="telephone">
+          <ScalarProperty Name="idt" ColumnName="idt" />
+          <ScalarProperty Name="number" ColumnName="number" />
+          <ScalarProperty Name="idp" ColumnName="idp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="work">
+      <EntityTypeMapping TypeName="santoriniModel.work">
+        <MappingFragment StoreEntitySet="work">
+          <ScalarProperty Name="ids" ColumnName="ids" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="qualification" ColumnName="qualification" />
+          <ScalarProperty Name="efficiency" ColumnName="efficiency" />
+          <ScalarProperty Name="experience" ColumnName="experience" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Хранилище santoriniModel.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Хранилище santoriniModel.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Хранилище santoriniModel.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Хранилище santoriniModel.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="santoriniModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Хранилище santoriniModel.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="santoriniModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Хранилище santoriniModel.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Хранилище santoriniModel.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>
